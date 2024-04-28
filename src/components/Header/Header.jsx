@@ -17,6 +17,9 @@ export const Header = () => {
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/photos">Photos</NavLink>
                             </li>
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to="/comments">Comments</NavLink>
+                            </li>
                         </ul>
                     </div>
                 </div>

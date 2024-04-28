@@ -7,7 +7,7 @@ export const PhotoCard = ({photoInfo}) => {
         <div className="col-3">
             <div className="card mb-3">
                 <h3 className="card-header">{title}</h3>
-                <img src={url} alt="Image not found" width="100%" height="200" className="d-block user-select-none" />
+                <img src={url} alt="Not found" width="100%" height="200" className="d-block user-select-none" />
 
                 <div className="card-body">
                     <h5 className="card-title">Album Id: {albumId}</h5>

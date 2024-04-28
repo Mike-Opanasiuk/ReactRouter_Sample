@@ -13,6 +13,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootswatch/dist/sketchy/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { NotFoundPage } from './pages/NotFoundPage/NotFoundPage';
+import { CommentsPage } from './pages/CommentsPage/CommentsPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -27,6 +28,8 @@ const router = createBrowserRouter(
 
       <Route path='/photos' element={<PhotosPage />}></Route>
       <Route path='/photos/:photoId' element={<PhotoPage />} loader={photoLoader} errorElement={<NotFoundPage/>}></Route>
+
+      <Route path='/comments' element={<CommentsPage />}></Route>
 
       <Route path='*' element={<NotFoundPage />}></Route>
     </Route>

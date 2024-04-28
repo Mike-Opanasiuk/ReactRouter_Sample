@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export const Footer = () => {
-    const [year, setYear] = useState(new Date().getFullYear());
+    const [year] = useState(new Date().getFullYear());
 
     return (
         <footer className="mt-3" style={{ "height": "50px", "flexShrink": "0" }}>
